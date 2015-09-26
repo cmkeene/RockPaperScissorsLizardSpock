@@ -35,5 +35,52 @@
         android:layout_below="@id/btnPaper"
         />
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLizard"
+        android:backgroundTint="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:src="@drawable/lizard"
+        android:layout_toLeftOf="@id/btnPaper"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSpock"
+        android:backgroundTint="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:src="@drawable/spock"
+        android:layout_toRightOf="@+id/btnPaper"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lizard"
+        android:textStyle="bold"
+        android:id="@+id/txtLizard"
+        android:layout_below="@id/btnSpock"
+        android:layout_marginLeft="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Spock"
+        android:textStyle="bold"
+        android:id="@+id/txtSpock"
+        android:layout_below="@id/btnSpock"
+        android:layout_toRightOf="@id/btnPaper"
+        android:layout_marginLeft="20dp"
+        />
+
 </RelativeLayout>
 <!-- From: file:/C:/Users/CK/Documents/GitHub/RockPaperScissorsLizardSpock/app/src/main/res/layout/activity_main.xml -->
