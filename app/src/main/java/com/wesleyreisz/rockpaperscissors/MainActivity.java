@@ -1,6 +1,7 @@
 package com.wesleyreisz.rockpaperscissors;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,6 +29,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         page.setOnClickListener(this);
         ImageButton scissors = (ImageButton)findViewById(R.id.btnScissors);
         scissors.setOnClickListener(this);
+        ImageButton lizard = (ImageButton)findViewById(R.id.btnLizard);
+        lizard.setOnClickListener(this);
+        ImageButton spock = (ImageButton) findViewById(R.id.btnSpock);
+        spock.setOnClickListener(this);
     }
 
     @Override
